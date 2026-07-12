@@ -1,0 +1,9 @@
+package com.example.formula1.data.local.entity
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "favorites")
+data class FavoriteEntity(
+    @PrimaryKey val teamId: String
+)
